@@ -1,0 +1,34 @@
+.loader-screen{
+    background-color:  rgb(98, 105, 105);
+    color : white;
+     height: 90vh;
+    flex-direction: column;
+    text-align: center;    
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 99%;
+    margin-left: 5px;
+    margin-right: 5px;   
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width :100%;
+    height : auto;
+    margin-left: 5px;
+    background-color:  darkslategray;
+}
+
+.render-img{  
+    /* display: grid; */
+    /* grid-template-columns: auto; */
+    border : 2px solid rgba(0, 0, 0, 0.158);  
+    width : 300px;
+    margin :1px;
+    text-align: center;
+   
+}
+
